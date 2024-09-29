@@ -1,0 +1,49 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script type="text/javascript">
+        let punto = 0
+        let risposta = prompt("Qual è la capitale degli Stati Uniti?")
+        while (risposta === null){
+            prompt("Qual è la capitale degli Stati Uniti?")
+        }
+        if (risposta.toLowerCase() === "washington"){
+            punto = punto +1
+        }
+        let risposta2 = prompt("Qual è il pianeta più vicino al Sole?")
+        while (risposta2 === null){
+            prompt("Qual è il pianeta più vicino al Sole?")
+        }
+        if (risposta2.toLowerCase() === "mercurio"){
+            punto = punto +1
+        }
+        let risposta3 = prompt("Chi ha scritto La Divina Commedia?")
+        while (risposta3 === null){
+            prompt("Chi ha scritto La Divina Commedia")
+        }
+        if (risposta3.toLowerCase() === "dante"){
+            punto = punto +1
+        }
+        let risposta4 = prompt("Qual è l'oceano più grande del mondo?")
+        while (risposta4 === null){
+            prompt("Qual è l'oceano più grande del mondo?")
+        }
+        if (risposta4.toLowerCase() === "pacifico"){
+            punto = punto +1
+        }
+        let risposta5 = prompt("Quale frutto è noto per tenere lontano il medico se ne mangi uno al giorno?")
+        while (risposta5 === null){
+            prompt("Quale frutto è noto per tenere lontano il medico se ne mangi uno al giorno?")
+        }
+        if (risposta5.toLowerCase() === "mela"){
+            punto = punto +1
+        }
+        alert("Hai totalizzato "+punto)
+    </script>
+</body>
+
+</html>
